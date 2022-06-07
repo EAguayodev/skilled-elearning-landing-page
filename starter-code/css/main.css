@@ -31,3 +31,52 @@ nav {
     justify-content: center;
 }
 
+
+/****** Box section styling */
+.row__course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.box {
+    width: 350px;
+    height: 322px;
+}
+
+.box p{
+    line-height: 28px;
+}
+
+.box__course {
+    background-image: linear-gradient(to bottom, rgb(255, 111, 72), rgb(240, 42, 166));
+}
+
+.box__1 {
+
+}
+
+.box__2 {
+
+}
+
+.box__3 {
+
+}
+
+.box__4 {
+
+}
+
+.box__5 {
+
+}
+
+
+footer {
+    background-color: var(--midnight-express);
+    display: flex;
+    justify-content: space-around;
+    height: 120px;
+    width: 1440px;
+}
