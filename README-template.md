@@ -13,8 +13,7 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#Eric AGuayo)
-- [Acknowledgments](#acknowledgments)
+- [Author](#Eric Aguayo)
 
 
 ## Overview
@@ -100,5 +99,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Acknowledgments
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
