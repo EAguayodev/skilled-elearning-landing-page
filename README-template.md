@@ -1,12 +1,9 @@
 # Frontend Mentor - Skilled e-learning landing page solution
 
-This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#skilled-learning-landing-page)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#html5 #css3)
@@ -25,22 +22,12 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com)
+- Solution URL: [github](https://your-solution-url.com)
+- Live Site URL: [vercel](https://your-live-site-url.com)
 
 ## My process
 
@@ -59,7 +46,22 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+ <picture>
+          <source srcset="assets/image-hero-desktop.png 1400w,
+          assets/image-hero-desktop@2X.png 1200w," 
+          media="(max-width: 1440px) and (min-width: 1200px)">
+          <source srcset="assets/image-hero-tablet.png 1023w,
+          assets/image-hero-tablet@2X.png 1000w, 
+          assets/image-hero-tablet.webp 900w, 
+          assets/image-hero-tablet@2X.webp 800w" 
+          media="(max-width:1023px) and (min-width: 767px)">
+          <source srcset="assets/image-hero-mobile.png 767w, 
+          assets/image-hero-mobile@2X.png 600w, 
+          assets/image-hero-mobile.webp 500w, 
+          assets/image-hero-mobile@2X.webp 350w" 
+          media="(max-width:767px) and (min-width: 375px)">
+          <img class="hero__image" src="assets/image-hero-desktop.png" alt="hero__desktop">
+      </picture>
 ```
 ```css
 .proud-of-this-css {
@@ -72,7 +74,6 @@ const proudOfThisFunc = () => {
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 
 ### Continued development
@@ -83,19 +84,13 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [caniuse](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [caniuse](https://caniuse.com/) - This site helped me with understanding which browsers had the strongest support for the picture tag.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [webdesign.tutsplus](https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-use-html5-picture-for-responsive-images--cms-21015) - This is an amazing article which helped me finally understand when to approach making an image responsive with img tag included with sizes and srcset, and when to use the approach of the picture tag with the img, srcset, and media included inside the source tag inside the picture tag element.
+
 
 ## Author
 
 - Website - [Eric Aguayo](https://www.ericaguayo.com)
 - Frontend Mentor - [@EricAguayo90](https://www.frontendmentor.io/profile/EricAguayo90e)
 - Twitter - [@DevEric90](https://www.twitter.com/DevEric90)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
