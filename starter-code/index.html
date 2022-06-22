@@ -15,32 +15,37 @@
   <nav>
     <img class="logo__dark" src="assets/logo-dark.svg" alt="logo__dark">
 
-    <a href="#">Get Started</a>
+    <button class="btn btn__nav" href="#">Get Started</button>
   </nav>
   <div class="header__container">
     <div class="row">
       <div> 
-        <h1>Maximize skill, minimize budget</h1>
-        <p>Our modern courses across a range of in-demand skills will give you the 
-          knowledge you need to live the life you want.</p>
-        <a href="#">Get Started</a>
+       <h1>Maximize skill, <br> minimize budget</h1>
+       
+        <p>Our modern courses across a range of in-demand <br> skills will give you the 
+          knowledge you need to live <br> the life you want.</p>
+        
+        <button class="btn btn__started" href="#">Get Started</button>
       </div>
       <div>
         <picture>
-          <source srcset="assets/image-hero-deskop.webp" media="(max-width: 1200px)">
-          <source srcset="assets/image-hero-deskop@2X.webp" media="(max-width:)">
-          <source srcset="assets/image-hero-desktop.png" media="(max-width:)">
-          <source srcset="assets/image-hero-desktop@2X.png" media="(max-width:)">
-          <source srcset="assets/image-hero-tablet.png" media="(max-width:)">
-          <source srcset="assets/image-hero-tablet@2X.png" media="(max-width:)">
-          <source srcset="assets/image-hero-tablet.webp" media="(max-width:)">
-          <source srcset="assets/image-hero-tablet@2X.webp" media="(max-width:)">
-          <source srcset="assets/image-hero-mobile.png" media="(max-width:)">
-          <source srcset="assets/image-hero-mobile@2X.png" media="(max-width:)">
-          <source srcset="assets/image-hero-mobile.webp" media="(max-width:)">
-          <source srcset="assets/image-hero-mobile@2X.webp" media="(max-width:)">
-          <img src="assets/image-hero-desktop.png" alt="hero__desktop">
-        </picture srcset="()">
+          <source srcset="assets/image-hero-deskop.webp 800w, 
+          assets/image-hero-deskop@2X.webp 1220w, 
+          assets/image-hero-desktop.png 1110w,
+          assets/image-hero-desktop@2X.png 1000w " 
+          media="(max-width: 1440px)">
+          <source srcset="assets/image-hero-tablet.png 900w,
+          assets/image-hero-tablet@2X.png 800w, 
+          assets/image-hero-tablet.webp 850w, 
+          assets/image-hero-tablet@2X.webp 820w" 
+          media="(max-width:1023px)">
+          <source srcset="assets/image-hero-mobile.png 767w, 
+          assets/image-hero-mobile@2X.png 575w, 
+          assets/image-hero-mobile.webp 475w, 
+          assets/image-hero-mobile@2X.webp 400w" 
+          media="(max-width:767px)">
+          <img class="hero__image" src="assets/image-hero-desktop.webp" alt="hero__desktop">
+        </picture>
       </div>
     </div>
   </div>
@@ -53,35 +58,35 @@
         </h2>
       </div>
       <div class="box box__1">
-        <img src="assets/icon-animation.svg" alt="">
+        <img class="icon__images" src="assets/icon-animation.svg" alt="">
         <h3>Animation</h3>
         <p>Learn the latest animation techniques to create stunning motion 
         design and captivate your audience.</p>
         <a href="#">Get Started</a>
       </div>
       <div class="box box__2">
-        <img src="assets/icon-design.svg" alt="icon__design">
+        <img class="icon__images" src="assets/icon-design.svg" alt="icon__design">
         <h3>Design</h3>
         <p>Create beautiful, usable interfaces to help shape the future of 
         how the web looks.</p>
         <a href="#">Get Started</a>
       </div>
       <div class="box box__3">
-        <img src="assets/icon-photography.svg" alt="icon__photography">
+        <img class="icon__images" src="assets/icon-photography.svg" alt="icon__photography">
         <h3>Photography</h3>
         <p>Explore critical fundamentals like lighting, composition, and focus 
         to capture exceptional photos.</p>
         <a href="#">Get Started</a>
       </div>
       <div class="box box__4">
-        <img src="assets/icon-crypto.svg" alt="crypto__image">
+        <img class="icon__images" src="assets/icon-crypto.svg" alt="crypto__image">
         <h3>Crypto</h3>
         <p>All you need to know to get started investing in crypto. Go from beginner 
         to advanced with this 54 hour course.</p>
         <a href="#">Get Started</a>
       </div>
       <div class="box box__5">
-        <img src="assets/icon-business.svg" alt="icon__business">
+        <img class="icon__images" src="assets/icon-business.svg" alt="icon__business">
         <h3>Business</h3>
         <p>A step-by-step playbook to help you start, scale, and sustain your business 
         without outside investment.</p>
@@ -92,7 +97,7 @@
   <!-- footer section -->
 <footer>
   <div>
-    <img src="assets/logo-light.svg" alt="">
+    <img class="logo__light" src="assets/logo-light.svg" alt="">
   </div>
   <div>
     <button class="btn btn__footer">Get Started</button>
