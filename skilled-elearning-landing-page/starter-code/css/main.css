@@ -253,6 +253,10 @@ footer {
         width: 140px;
         height: 48px;
     }
+    
+    .btn__nav{
+    margin: 2.3rem 1rem 0 0rem;
+    }
 
     .btn__footer{
         width: 140px;
