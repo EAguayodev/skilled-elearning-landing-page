@@ -249,6 +249,10 @@ footer {
     width: 343px;
     height: 120px;
     }
+    
+    .box__course h2{
+        margin: 1rem 2rem;
+    }
 
     nav {
         display: flex;
