@@ -275,7 +275,7 @@ footer {
     .btn__footer{
         width: 140px;
         height: 48px;
-        margin-left: 7rem;
+        margin: 2rem -2rem 0 3rem;
     }
 
     footer {
