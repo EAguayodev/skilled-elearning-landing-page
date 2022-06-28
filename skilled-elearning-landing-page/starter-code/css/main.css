@@ -271,11 +271,15 @@ footer {
     .btn__nav{
     margin: 2.3rem 1rem 0 0rem;
     }
+    
+    .logo__light{
+        margin: 2.3rem 0 0 -1rem;
+    }
 
     .btn__footer{
         width: 140px;
         height: 48px;
-        margin: 2rem -2rem 0 3rem;
+        margin: 2rem -1rem 0 1rem;
     }
 
     footer {
