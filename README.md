@@ -2,7 +2,7 @@
 
 ### Links
 
-- Solution URL: [github]()
+- Solution URL: [github](https://github.com/EricAguayo90/skilled-elearning-landing-page)
 - Live Site URL: [vercel](https://skilled-elearning-landing-page-3.vercel.app/)
 
 ### Built with
