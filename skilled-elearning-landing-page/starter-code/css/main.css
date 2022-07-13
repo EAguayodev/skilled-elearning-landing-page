@@ -232,26 +232,11 @@ footer {
         font-weight: 800;
         font-size: 40px;
         line-height: 50px;
-        margin: 3rem 0rem 0 1rem;
-    }
-    
-    .row p{
-        margin: 3rem 0rem 0 1rem;
     }
 
     .row__course{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin: 0 0 4rem 1rem;
-    }
-    
-    .box__course {
-        width: 343px;
-        height: 120px;
-    }
-    
-    .box__course h2{
-        margin: 1rem 2rem;
     }
 
     nav {
@@ -263,23 +248,11 @@ footer {
         width: 140px;
         height: 48px;
     }
-    
-    .btn__started{
-    margin: 2rem 0 0 1rem;
-    }
-    
-    .btn__nav{
-    margin: 2.3rem 1rem 0 0rem;
-    }
-    
-    .logo__light{
-        margin: 2.3rem 0 0 -1rem;
-    }
 
     .btn__footer{
         width: 140px;
         height: 48px;
-        margin: 2rem -1rem 0 1rem;
+        margin-left: 7rem;
     }
 
     footer {
