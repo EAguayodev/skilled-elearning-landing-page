@@ -72,8 +72,8 @@ nav {
 }
 
 .hero__image {
-/*     margin: -14rem -23rem 0 14rem; */
-/*     width: 349.474px; */
+    position: relative;
+    top: -14rem;
 }
 
 .row h1 {
