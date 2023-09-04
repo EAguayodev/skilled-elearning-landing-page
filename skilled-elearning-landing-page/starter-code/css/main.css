@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
     outline: 2px solid red;
 }
 
@@ -48,7 +46,9 @@ nav {
     background-color: var(--midnight-express);
     color: #fff;
     font-size: 14px;
-    margin: 2rem 5rem 0 29rem;
+    position: relative;
+    top: 2rem;
+    right: 13rem;
 }
 
 .btn__nav:hover {
@@ -58,8 +58,9 @@ nav {
 .btn__started {
     background-image: linear-gradient(to bottom, rgb(255, 111, 72), rgb(240, 42, 166));
     color: var(--white);
-    margin-left: 7rem;
-    margin-top: 2rem;
+    position: relative;
+    left: 7rem;
+    top: 13rem;
 }
 
 .btn__started:hover {
@@ -83,16 +84,17 @@ nav {
     line-height: normal;
     right: 100px;
     position: relative;
-    top: 1rem;
+    top: 10rem;
     left: 7.5rem;
-       
 }
 
 .row p {
     color: var(--manatee);
-    margin: 1.5rem -2rem 0 7.5rem;
     font-size: 18px;
     font-weight: 500;
+    position: relative;
+    top: 11rem;
+    left: 7.5rem;
     line-height: 28px;
     width: 445px;
 }
@@ -124,7 +126,7 @@ nav {
 }
 
 .box h3 {
-    font-size: 24px;
+    font-size: 32px;
     margin: 1rem 0 0 2rem;
     font-style: normal;
     font-weight: 800;
