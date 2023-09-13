@@ -25,7 +25,7 @@ nav {
 }
 
 .logo__dark {
-    margin: 3rem 0 0 1rem;
+    margin: 3rem 0 0 -10rem;
 }
 
 
@@ -33,7 +33,7 @@ nav {
 .btn {
     width: 167px;
     height: 56px;
-    border-radius: 50px;
+    border-radius: 28px;
     font-weight: 800;
     font-size: 18px;
     font-style: normal;
@@ -47,8 +47,8 @@ nav {
     color: #fff;
     font-size: 14px;
     position: relative;
-    top: 2rem;
-    right: 13rem;
+    top: 1rem;
+    right: 3rem;
 }
 
 .btn__nav:hover {
@@ -86,6 +86,7 @@ nav {
     position: relative;
     top: 10rem;
     left: 7.5rem;
+    width: 453px;
 }
 
 .row p {
