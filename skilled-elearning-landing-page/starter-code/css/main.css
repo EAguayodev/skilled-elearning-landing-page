@@ -207,7 +207,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 30px 0;
-        margin: 50px 90px;
+        margin: 50px 22px;
     }
 
     .logo__dark {
@@ -218,6 +218,9 @@ footer {
 
     .hero__image {
         margin: -8rem -16rem 0 14rem;
+        position: relative;
+        top: -8rem;
+        left: -6rem;
     }
 
     .row h1 {
@@ -226,10 +229,22 @@ footer {
         font-weight: 800;
         font-size: 40px;
         line-height: 50px;
+        position: relative;
+        left: 2rem;
+        top: 4rem;
     }
 
     .row p {
-        margin: 1.5rem -9rem 0 7.5rem;
+     /* margin: 1.5rem -9rem 0 7.5rem; */
+        position: relative;
+        top: 5rem;
+        left: 1.5rem;
+    }
+
+    .btn__started{
+        position: relative;
+        left: 2rem;
+        top: 6rem;
     }
 
     footer {
