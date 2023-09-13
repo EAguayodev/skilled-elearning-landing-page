@@ -304,7 +304,8 @@ nav {
 .btn__footer {
     width: 140px;
     height: 48px;
-    margin-left: 7rem;
+    position: relative;
+    left: 7rem;
 }
 
 .logo__light {
