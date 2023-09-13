@@ -170,14 +170,11 @@ nav {
     margin: 4rem 2rem;
 }
 
-
-
 .icon__images {
     margin: -1rem 0 0 2rem;
     width: 56px;
     height: 56px;
 }
-
 
 footer {
     background-color: var(--midnight-express);
@@ -212,11 +209,11 @@ footer {
         margin: 50px 90px;
     }
 
-        .logo__dark {
-            /* margin: 3rem 0 0 1rem; */
-            position: relative;
-            left: 3rem;
-        }
+    .logo__dark {
+        /* margin: 3rem 0 0 1rem; */
+        position: relative;
+        left: 3rem;
+    }
 
     .hero__image {
         margin: -8rem -16rem 0 14rem;
@@ -251,41 +248,54 @@ footer {
 
     .logo__dark {
         position: relative;
-        left: 226px;
+        left: -3.2rem;
         top: -1.5rem;
     }
 
     .btn__nav {
-    position: relative;
-        right: 10rem;
-        top: -12px;
+        position: relative;
+        right: -2rem;
+        top: 16px;
     }
 
-.hero__image {
-    margin: 3rem 0 0 0;
-}
+    .btn__started{
+        position: relative;
+        left: 0rem;
+        top: 2rem;
+    }
 
-.row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    .hero__image {
+        margin: 3rem 0 0 0;
+        width: 375px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 .row h1 {
-    font-family: 'Plus Jakarta Sans';
+   font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
     line-height: 50px;
-    margin: 0 1rem 0 1.5rem;
-    width: 320px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 343px;
 }
 
 .row p {
     position: relative;
-    margin: 1.5rem 4rem 0 1.5rem;
-    width: 345px;
+    /* margin: 1.5rem 4rem 0 1.5rem; */
+    top: 0;
+    font-size: 16px;
+    left: -121px;
+    line-height: 23px;
+    width: 343px;
 }
 
 .row__course {
@@ -300,6 +310,16 @@ nav {
     justify-content: center;
 }
 
+.box{
+    width: 343px;
+    height: 259px;
+}
+
+.box__course {
+    width: 343px;
+    height: 121px;
+}
+
 .btn {
     width: 140px;
     height: 48px;
@@ -309,7 +329,8 @@ nav {
     width: 140px;
     height: 48px;
     position: relative;
-    left: 4rem;
+    top: 2rem;
+    left: -1rem;
 }
 
 .logo__light {
