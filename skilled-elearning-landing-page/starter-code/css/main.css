@@ -317,6 +317,12 @@ nav {
     height: 259px;
 }
 
+.box a{
+    position: relative;
+    top: -16px;
+    left: 2rem;
+}
+
 .box__course {
     width: 343px;
     height: 121px;
