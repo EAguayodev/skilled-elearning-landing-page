@@ -265,7 +265,9 @@ footer {
     }
 
     .hero__image {
-        margin: 3rem 0 0 0;
+        position: relative;
+        left: -15rem;
+        top: 8rem;
         width: 375px;
     }
 
@@ -320,6 +322,10 @@ nav {
     height: 121px;
 }
 
+.box__course h2{
+    margin: 2rem 2rem;
+}
+
 .btn {
     width: 140px;
     height: 48px;
@@ -329,8 +335,8 @@ nav {
     width: 140px;
     height: 48px;
     position: relative;
-    top: 2rem;
-    left: -1rem;
+    top: 0;
+    left: 3rem;
 }
 
 .logo__light {
