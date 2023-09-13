@@ -269,6 +269,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .row h1 {
@@ -278,13 +279,13 @@ footer {
     font-size: 40px;
     line-height: 50px;
     margin: 0 1rem 0 1.5rem;
-    width: 305px;
+    width: 320px;
 }
 
 .row p {
     position: relative;
     margin: 1.5rem 4rem 0 1.5rem;
-    width: 289px;
+    width: 305px;
 }
 
 .row__course {
